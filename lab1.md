@@ -38,9 +38,9 @@ make menuconfig //配置编译选项
 </ul>
 
 <p><code><br />
-make -j4 //4核加速编译
-     -bzImage //编译内核
-     -vmlinux//符号表，供QEMU使用
+make -j4 //4核加速编译<br />
+     -bzImage //编译内核<br />
+     -vmlinux//符号表，供QEMU使用<br />
 </code></p>
 以上选项可以避免编译无用模块，加速编译过程
 此过程大约需要15分钟
