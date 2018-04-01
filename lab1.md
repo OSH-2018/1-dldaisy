@@ -17,14 +17,14 @@
 <ul>
 <li>从<a href="www.kernel.org">此处</a>下载最新稳定版本linuxkernel(4.15.14)</li>
 <li>解压
-<code>bash
+<code>Bash <br />
 mkdir linuxkernel <br />
 cd linuxkernel 
 tar -xf linux-4.15.14.tar.gz 
 cd linux-4.15.14
 </code></li>
 <li>编译配置
-<code>bash <br />
+<code>Bash <br />
 make menuconfig //配置编译选项
 </code>
 注意，在弹出的配置界面中需要注意设置以下选项：
@@ -37,7 +37,7 @@ make menuconfig //配置编译选项
 </ol></li>
 </ul>
 
-<p><code>bash
+<p><code>Bash <br />
 make -j4 //4核加速编译
      -bzImage //编译内核
      -vmlinux//符号表，供QEMU使用
